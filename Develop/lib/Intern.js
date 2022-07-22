@@ -2,7 +2,7 @@
 
 
 const Employee = require("./Employee");
-
+// this extends the class employee with intern to give it specific properties
 class Intern extends Employee {
     constructor (name, id, email, school) {
         super (name, id, email);
